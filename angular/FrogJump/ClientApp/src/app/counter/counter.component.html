@@ -1,0 +1,7 @@
+<h1>第一題</h1>
+
+<p>取得身高和體重的輸入值，幫我把計算BMI的功能完成</p>
+
+身高:<input type="text"   [(ngModel)]="height"/><br />
+體重:<input type="text"  [(ngModel)]="weight"/><br />
+<button class="btn btn-danger" (click)="incrementBMI()">計算BMI</button><strong>正確的BMI是:{{ currentBMI }}</strong>
